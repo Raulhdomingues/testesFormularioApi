@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+
+    <script src="/app.js" defer></script>
+    <script src="/model.js" defer></script>
+    <script src="/script.js" defer></script>
+    <title>Formulário</title>
+</head>
+<body>
+
+    <div class="formulario">
+
+        <form class="form" action="/" method="post">
+
+            <label for="nome" class="nome">Nome</label>
+            <input type="text" id="nome" name="nome">
+
+            <label for="email" class="email">Email</label>
+            <input type="text" id="email" name="email">
+
+            <label for="telefone" class="telefone">Telefone</label>
+            <input type="text" id="telefone" name="telefone">
+
+            <label for="pais" class="pais">País</label>
+            <input type="text" id="pais" name="pais">
+
+            <button class="botao">Enviar</button>
+
+        </form>
+
+    </div>
+
+    <dialog id="dialog">
+        <h1>Usuario cadastrado com sucesso!</h1>
+        <p></p>
+        <button>Ok</button>
+    </dialog>
+
+</body>
+</html>
